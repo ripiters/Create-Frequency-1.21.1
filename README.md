@@ -21,7 +21,7 @@ To ensure compatibility, please use the following versions:
 
 ### **Resources**
 * 📦 **Modrinth:** [Project Page](https://modrinth.com/project/create-frequency)
-* 🛠️ **Issue Tracker:** [Report a Bug](https://github.com/YourUsername/YourRepo/issues)
+* 🛠️ **Issue Tracker:** [Report a Bug](https://github.com/ripiters/Create-Frequency-1.21.1/issues)
 * 📜 **License:** MIT
 
 ---
