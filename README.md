@@ -1,2 +1,30 @@
-# Create-Frequency-1.21.1
-Create Frequency mod for minecraft java neoforge 1.21.1
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ripiters/Create-Frequency-1.21.1/src/main/resources/icon.png" width="128" height="128" alt="Create: Frequency Icon">
+
+# **Create: Frequency**
+
+**A powerful wireless utility for the Create mod.**
+</div>
+
+---
+
+### **Overview**
+**Create: Frequency** is an addon for [Create](https://github.com/Creators-of-Create/Create) that adds a wireless communication system based on frequencies. It allows for seamless remote interaction and organized network management across your entire world.
+### **Requirements**
+To ensure compatibility, please use the following versions:
+
+* **Minecraft:** `1.21.1`
+* **NeoForge:** `21.1.208` or higher
+* **Create:** `6.0.6` or higher
+
+---
+
+### **Resources**
+* 📦 **Modrinth:** [Project Page](https://modrinth.com/project/create-frequency)
+* 🛠️ **Issue Tracker:** [Report a Bug](https://github.com/YourUsername/YourRepo/issues)
+* 📜 **License:** MIT
+
+---
+<div align="center">
+  <sub>Built with passion for the Create Mod community.</sub>
+</div>
