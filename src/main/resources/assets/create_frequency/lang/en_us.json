@@ -1,0 +1,11 @@
+{
+  "itemGroup.create_frequency.main": "Create Frequency",
+  "create_frequency.gui.frequency.title": "Frequency Link Configuration",
+  "create_frequency.gui.frequency.name_hint": "Network name",
+  "create_frequency.gui.frequency.name_label": "Network Identity",
+  "create_frequency.gui.frequency.hz_label": "Frequency (Hz)",
+  "create_frequency.gui.frequency.name": "Frequency:",
+  "block.create_frequency.frequency_transmitter": "Frequency Transmitter",
+  "block.create_frequency.frequency_receiver": "Frequency Receiver",
+  "item.create_frequency.frequency_controller": "Frequency Controller"
+}

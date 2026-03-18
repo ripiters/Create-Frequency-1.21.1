@@ -1,0 +1,57 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"frequency_antenna": "create_frequency:block/frequency_antenna_powered",
+		"particle": "create_frequency:block/frequency_bridge_powered",
+		"frequency_bridge": "create_frequency:block/frequency_bridge_powered"
+	},
+	"elements": [
+		{
+			"name": "Controller",
+			"from": [2, 0, 2],
+			"to": [14, 3, 14],
+			"faces": {
+				"north": {"uv": [6, 7, 7.5, 13], "rotation": 90, "texture": "#frequency_bridge"},
+				"east": {"uv": [0, 13, 6, 14.5], "texture": "#frequency_bridge"},
+				"south": {"uv": [6, 7, 7.5, 13], "rotation": 90, "texture": "#frequency_bridge"},
+				"west": {"uv": [0, 13, 6, 14.5], "texture": "#frequency_bridge"},
+				"up": {"uv": [0, 7, 6, 13], "rotation": 270, "texture": "#frequency_bridge"},
+				"down": {"uv": [5, 0, 11, 6], "rotation": 90, "texture": "#frequency_bridge"}
+			}
+		},
+		{
+			"name": "AntennaTop",
+			"from": [1, 9, 4],
+			"to": [2, 10, 5],
+			"faces": {
+				"up": {"uv": [1, 1, 2, 2], "texture": "#frequency_antenna"}
+			}
+		},
+		{
+			"name": "AntennaZ",
+			"from": [1, 1, 3],
+			"to": [2, 11, 6],
+			"faces": {
+				"east": {"uv": [0, 0, 3, 10], "texture": "#frequency_antenna"},
+				"west": {"uv": [0, 0, 3, 10], "texture": "#frequency_antenna"}
+			}
+		},
+		{
+			"name": "AntennaX",
+			"from": [0, 1, 4],
+			"to": [3, 11, 5],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 10], "texture": "#frequency_antenna"},
+				"south": {"uv": [0, 0, 3, 10], "texture": "#frequency_antenna"},
+				"down": {"uv": [0, 9, 3, 10], "texture": "#frequency_antenna"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "itemGroup.create_frequency.main": "Create Częstotliwość",
+  "create_frequency.gui.frequency.title": "Konfiguracja Łącza",
+  "create_frequency.gui.frequency.name_hint": "Nazwa sieci",
+  "create_frequency.gui.frequency.name_label": "Identyfikator Sieci",
+  "create_frequency.gui.frequency.hz_label": "Częstotliwość (Hz)",
+  "create_frequency.gui.frequency.name": "Częstotliwość:",
+  "block.create_frequency.frequency_transmitter": "Nadajnik Częstotliwości",
+  "block.create_frequency.frequency_receiver": "Odbiornik Częstotliwości",
+  "item.create_frequency.frequency_controller": "Sterownik Częstotliwości"
+}
