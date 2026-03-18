@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ripiters/Create-Frequency-1.21.1/src/main/resources/icon.png" width="128" height="128" alt="Create: Frequency Icon">
+  <img src="https://raw.githubusercontent.com/ripiters/Create-Frequency-1.21.1/refs/heads/main/src/main/resources/icon.png" width="256" height="256" alt="Create: Frequency Icon">
 
 # **Create: Frequency**
 
