@@ -157,7 +157,7 @@ public class FrequencyControllerItem extends Item implements MenuProvider {
                 float freq = binds.get(i);
                 if (freq <= 0) continue;
 
-                String name = FrequencyNetworkHandler.getNetworkName(Minecraft.getInstance().level, freq);
+                String name = FrequencyNetworkHandler.getNetworkName(context.level(), freq);
 
                 String displayName = (name == null || name.isEmpty()) ? "Network Name" : name;
 
