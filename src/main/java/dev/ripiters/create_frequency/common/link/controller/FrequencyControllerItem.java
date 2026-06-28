@@ -9,7 +9,7 @@ import dev.ripiters.create_frequency.common.network.FrequencyNetworkHandler;
 import dev.ripiters.create_frequency.config.FrequencyConfig;
 import net.createmod.catnip.platform.CatnipServices;
 import net.minecraft.ChatFormatting;
-import net.minecraft.client.Minecraft;
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
@@ -157,7 +157,10 @@ public class FrequencyControllerItem extends Item implements MenuProvider {
                 float freq = binds.get(i);
                 if (freq <= 0) continue;
 
-                String name = FrequencyNetworkHandler.getNetworkName(Minecraft.getInstance().level, freq);
+                String name = "";
+                if (net.neoforged.fml.loading.FMLEnvironment.dist == net.neoforged.api.distmarker.Dist.CLIENT) {
+                    name = dev.ripiters.create_frequency.CreateFrequencyClient.getNetworkName(freq);
+                }
 
                 String displayName = (name == null || name.isEmpty()) ? "Network Name" : name;
 
