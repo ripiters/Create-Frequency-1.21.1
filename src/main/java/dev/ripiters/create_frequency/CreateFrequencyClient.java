@@ -76,4 +76,10 @@ public class CreateFrequencyClient {
     public static void onClientTick(ClientTickEvent.Post event) {
         FrequencyControllerClientHandler.tick();
     }
+
+    public static String getNetworkName(float freq) {
+        return dev.ripiters.create_frequency.common.network.FrequencyNetworkHandler.getNetworkName(
+                net.minecraft.client.Minecraft.getInstance().level, freq
+        );
+    }
 }
