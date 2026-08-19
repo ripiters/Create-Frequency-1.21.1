@@ -22,7 +22,7 @@ To ensure compatibility, please use the following versions:
 ### **Resources**
 * 📦 **Modrinth:** [Project Page](https://modrinth.com/project/create-frequency)
 * 🔥 **Curseforge:** [Project Page](https://www.curseforge.com/minecraft/mc-mods/create-frequency)
-* 🛠️ **Issue Tracker:** [Report a Bug](https://github.com/ripiters/Create-Frequency-1.21.1/issues)
+* 🛠️ **Issue Tracker:** [Report a Bug](https://github.com/ripiters/Create-Frequency/issues)
 * 📜 **License:** MIT
 
 ---
