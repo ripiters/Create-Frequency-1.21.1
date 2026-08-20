@@ -29,5 +29,3 @@ To ensure compatibility, please use the following versions:
 <div align="center">
   <sub>Built with passion for the Create Mod community.</sub>
 </div>
-
-# Currently I don't have time for making mods. if you'd like to help me with the code, feel free to contact me.
